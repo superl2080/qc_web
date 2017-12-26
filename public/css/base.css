@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{ margin: 0; padding: 0; }
+fieldset,img{ border: 0; }
+:focus{ outline: 0; }
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{ font-style: normal; font-weight: normal; }
+h1,h2,h3,h4,h5,h6{ font-size: 100%; font-weight: normal;}
+abbr,acronym{ border: 0; font-variant: normal; }
+code,kbd,samp,tt{ font-size: 100%; }
+input,button,textarea,select{ *font-size: 100%; border:none;}
+ol,ul{ list-style: none; }
+table{ border-collapse: collapse; border-spacing: 0; }
+caption,th{ text-align: left; }
+sup,sub{ font-size: 100%; vertical-align: baseline; }
+:link, :visited, ins{ text-decoration: none; }
+blockquote,q{ quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after{ content: ''; content: none; }
+a:link, a:visited{ color: #5e5e5e;}
+a:hover { color:#c9394a;}
+a:active { color: #666;}
+.clearfix:after{content:'\0020';display:block;height:0;clear:both;visibility:hidden; }
+.clearfix{*zoom:1;}
+.l{float:left;}
+.r{float:right;}
+.clear{ height:0; overflow:hidden; clear:both}
+.hide{display:none;}
+.btn.hide{display:none;}
+a.hidefocus { outline: none; }
+button.hidefocus::-moz-focus-inner { border:none; }
+a:focus {outline:none;-moz-outline:none;}
+input,textarea {outline:none;}
+h2 { font-size: 20px; }
+h3 { font-size: 16px;}
+h5 { font-size: 14px;}
+
+
+@media screen and (max-width: 1004px) {
+  .nav-item li {
+    transition: .3s;
+    margin: 0;
+    width: 60px;
+  }
+}
+@media screen and (max-width: 961px) {
+  .search-area {
+    width: 170px;
+  }
+}
+@media screen and (max-width: 915px) {
+  #nav {
+    width: 803px;
+  }
+  .search-area {
+    width: 105px;
+  }
+}
+/* 底部导航 */
+@media screen and (max-width: 850px) {
+  #footer .followus {
+    padding-left: 0;
+  }
+  #footer .footer_link li {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 801px) {
+  #nav {
+    width: auto;
+  }
+  #logo {
+    margin-right: 0;
+  }
+  .g-menu-mini .menu-ctrl {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    visibility: visible;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    font-size: 24px;
+    overflow: visible;
+  }
+  .g-menu-mini {
+    position: relative;
+  }
+  .g-menu-mini:hover .nav-item {
+    display: block;
+  }
+  .nav-item {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    min-width: 140px;
+    background-color: #222428;
+  }
+  .nav-item li {
+    float: none;
+    margin: 0;
+    width: 100%;
+  }
+  .nav-item li a {
+    padding-left: 30px;
+    text-align: left;
+  }
+  .search-area {
+    width: 105px;
+  }
+}
+@media screen and (max-width: 680px) {
+  #footer {
+    text-align: center;
+  }
+  #footer .followus {
+    float: none;
+    padding: 0;
+    margin-bottom: 8px;
+  }
+  #footer .followus a {
+    float: none;
+    display: inline-block;
+  }
+  #footer .footer_intro {
+    float: none;
+    padding-left: 0;
+  }
+  #footer .footer_link li {
+    float: none;
+    display: inline-block;
+    margin-right: 16px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .search-area {
+    width: 94px;
+  }
+}
+
+
+@media only screen and (max-width:1068px){}
+@media only screen and (max-width:735px) {}
+@media only screen and (max-width:599px) {}
+@media only screen and (max-width:320px){}
+@media only screen and (max-width:319px){}
+
+@media only screen and (min-width:1442px){}
+@media only screen and (min-width:1440px){}
+
+
+@media only screen and (min-width:320px) and (max-width:735px) and (max-device-width:768px) {}
+@media only screen and (max-width:28em) and (max-device-width:viewport-get-max(small)){}
+@media only screen and (min-width:600px) and (max-width:736px){}
+@media only screen and (min-width:600px) and (max-width:736px) {}
+@media only screen and (min-width:600px) and (max-width:736px) and (max-device-width:736px){}
+@media only screen and (min-width:320px) and (max-width:735px) and (max-device-width:768px){}
+
+

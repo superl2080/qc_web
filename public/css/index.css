@@ -1,0 +1,87 @@
+body{
+    background-color: white;
+}
+.intro{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.blocks{
+    width: 80%;
+    margin: 0 auto;
+    height: 380px;
+}
+.block{
+    width: 33.3333333%;
+    float: left;
+    height: 190px;
+    background-color: white;
+    text-align: center;
+}
+.block_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.block_3{
+    width: 50%;
+}
+.block_img {
+    width: 100%;
+    overflow: hidden;
+}
+.block_ico{
+    margin-top: 30px;
+}
+.block > p {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.example{
+    display: flex;
+    justify-content: center;
+}
+.example_img{
+    padding: 5px;
+}
+.ads{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.ad{
+    width: 50%;
+    float: left;
+}
+.ad_t{
+    color: #5e5e5e
+}
+.ad2{
+    text-align: center;
+    padding: 20px;
+}
+.ad3{
+    margin-top: 15px;
+}
+.b_pics{
+    width: 80%;
+    margin: 15px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#dialog{
+    position: fixed;
+    background: rgba(0,0,0,0.65);
+    top: 0;
+    text-align: center;
+    padding: 10%;
+    min-height: 100vh;
+    z-index: 9999;
+}
+#dialog > img{
+    width: 30%;
+}
+
