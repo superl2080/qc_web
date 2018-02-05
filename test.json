@@ -1,0 +1,13 @@
+{
+    "apps": [
+        {
+            "name": "webtest",
+            "script": "./bin/www",
+            "instances": "1",
+            "env": {
+                "PORT": 3100,
+                "NODE_ENV": "test"
+            }
+        }
+    ]
+}
